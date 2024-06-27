@@ -8,20 +8,13 @@ import { Amplify } from "aws-amplify";
 import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
 import { ThemeProvider } from '@aws-amplify/ui-react';
-
-import {
-  Card,
-  Image,
-  Flex,
-  Badge,
-  Text,
-  StepperField,
-  Button,
-} from '@aws-amplify/ui-react';
-
-
 import { Authenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
+
+
+import { TodoUpdateForm } from '../ui-components';
+
+
 
 Amplify.configure(outputs);
 
@@ -53,6 +46,7 @@ export default function App() {
 
   return (
     <ThemeProvider>
+
 
     <Authenticator>
       {({ signOut, user }) => (

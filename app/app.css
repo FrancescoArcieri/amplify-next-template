@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    background: linear-gradient(180deg, rgb(77, 17, 205), rgb(251, 56, 56));
+    background: linear-gradient(180deg, rgb(3, 146, 223), rgb(158, 189, 255));
     display: flex;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #d95757;
+    background-color: #1a13ed;
     cursor: pointer;
     transition: border-color 0.25s;
     color: white;
